@@ -12,3 +12,7 @@ http://romainfrancois.blog.free.fr/index.php?post/2009/06/22/using-ImageJ-from-R
 
 python: 
 http://www.alanzucconi.com/2015/11/18/gamebarcode-a-study-of-colours-in-games/
+
+https://github.com/ThinkRstat/collage
+
+https://www.youtube.com/watch?v=3LOqHSXMHJo&list=PLe7j0Y__1DtMwPCRxQPCC82raowE_eZQ3
