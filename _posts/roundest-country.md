@@ -1,1 +1,5 @@
 https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/86610284_2797393050505066_5839735430278283264_o.jpg?_nc_cat=1&_nc_oc=AQmbzwHM3WR1H0L4kBn1De57_-b8umuX4WFlMmNO7qTzvXZLsEEN-h9bf4Wd7DlxLYxWBRMnaxLq_IdCaIHWhZpo&_nc_ht=scontent-dus1-1.xx&oh=c72edb950e0198df82e3715fd27ecbd6&oe=5EC8E597
+
+rectangular country: https://pappubahry.com/misc/rectangles/code/
+roundest country: https://gciruelos.com/what-is-the-roundest-country.html
+mapmen most square country song: https://www.youtube.com/watch?v=8mrNEVUuZdk 
