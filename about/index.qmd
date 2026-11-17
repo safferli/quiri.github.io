@@ -1,0 +1,38 @@
+---
+title: "About"
+aliases:
+  - /authors/index.html
+toc: false
+---
+
+A data science blog, written between 2014 and 2017. Mostly R, some Python, Spark and whatever else we were poking at.
+
+## Authors
+
+::: {#kirill .author}
+![](kirill.jpg){.author-photo width="96" fig-alt="Kirill Pomogajko"}
+
+**Kirill Pomogajko** · [GitHub](https://github.com/Quiri) · [LinkedIn](https://www.linkedin.com/in/kpomogajko)\
+Breathes R, lives in a shell, avoids spreadsheets.
+:::
+
+::: {#jess .author}
+![](jessica.jpg){.author-photo width="96" fig-alt="Jessica Peterka-Bonetta"}
+
+**Jessica Peterka-Bonetta** · [GitHub](https://github.com/today-is-a-good-day) · [LinkedIn](https://www.linkedin.com/in/jpeterkabonetta)\
+Data science enthusiast, psychologist, keen on R and digging into Big Data.
+:::
+
+::: {#yuki .author}
+![](yuki.jpg){.author-photo width="96" fig-alt="Yuki Katoh"}
+
+**Yuki Katoh** · [GitHub](https://github.com/yukiegosapporo) · [LinkedIn](https://www.linkedin.com/in/yukiegosapporo)\
+Japanese data chef in Berlin, making big data tuna into tasty sushi.
+:::
+
+::: {#safferli .author}
+![](safferli.jpg){.author-photo width="96" fig-alt="Christoph Safferling"}
+
+**Christoph Safferling** · [GitHub](https://github.com/safferli) · [LinkedIn](https://www.linkedin.com/in/safferling)\
+Economist, open source afficionado, and game analyst.
+:::

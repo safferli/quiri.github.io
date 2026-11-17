@@ -1,0 +1,21 @@
+/*-- scss:rules --*/
+
+.author {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  p { margin: 0; }
+}
+
+.author-photo {
+  border-radius: 50%;
+}
+
+// Old htmlwidgets have hard-coded pixel widths; keep them inside the column.
+.html-widget {
+  max-width: 100%;
+  overflow: hidden;
+}

@@ -1,10 +1,7 @@
-_site
+/.quarto/
+/_site/
 .DS_Store
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
-node_modules
-.sass-cache
-*.swp
-npm-debug.log
 .Rproj.user
+.Rhistory
+
+**/*.quarto_ipynb

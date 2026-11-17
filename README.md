@@ -1,17 +1,33 @@
-This is the source code of the [Opiate for the masses Blog](http://www.opiateforthemass.es).
------
-**Before contributing make sure to follow this steps**
-  1. Fork the repo
-  2. Clone it to local
-  3. Install the development version of Ruby `sudo apt-get install ruby-dev`.
-  4. Install nodejs `sudo apt-get install nodejs`.
-  3. Install [jekyll](http://jekyllrb.com/) with `gem install jekyll`. Make sure it runs Jekyll >= 2.0.
-  4. Install Bundler `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, Jekyll-Sitemap, Octopress, etc).
-  5. Run it locally with `jekyll serve`. If it throws errors you may have to run Jekyll with `bundler exec jekyll serve` instead.
+# Opiate for the masses
 
-Now that your local version of it is up and running, try to add some .md posts to *_posts*. Read the CONTRIBUTE.md to see how to write articles.
+Source of [opiateforthemass.es](https://opiateforthemass.es), built with [Quarto](https://quarto.org).
 
-Notes to self:
-bundle update; gem install github-pages;
+## Writing
 
+Each post is a folder: `articles/<slug>/index.qmd`, with its images and data next to it.
+The folder name is the URL (`/articles/<slug>/`). Set `draft: true` until it's ready.
 
+```yaml
+---
+title: "Post title"
+description: "One-line teaser shown on the front page"
+author: Christoph Safferling
+date: 2026-11-17
+categories: [R, ggplot2]
+---
+```
+
+Posts tagged `R` also go to `/rss/feed.R.xml` (R-bloggers).
+
+## Running code
+
+Code chunks (```` ```{r} ```` / ```` ```{python} ````) run locally only. `freeze: auto` stores the
+results in `_freeze/`; **commit `_freeze/`** with the post. CI never runs R or Python.
+
+## Preview & publish
+
+```bash
+quarto preview
+```
+
+Pushing to `master` renders the site and deploys it to GitHub Pages (`.github/workflows/publish.yml`).

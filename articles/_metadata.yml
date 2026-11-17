@@ -1,0 +1,4 @@
+# Defaults for every post under articles/
+title-block-banner: false
+citation: false
+toc: false

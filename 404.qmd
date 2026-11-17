@@ -1,0 +1,6 @@
+---
+title: "Page not found"
+toc: false
+---
+
+That page doesn't exist. Head back to the [front page](/) for the list of articles.

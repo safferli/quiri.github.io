@@ -1,0 +1,37 @@
+project:
+  type: website
+  resources:
+    - CNAME
+  post-render: _scripts/legacy-feeds.ts
+
+website:
+  title: "Opiate for the masses"
+  description: "Data is our religion."
+  site-url: https://opiateforthemass.es
+  favicon: favicon.png
+  repo-url: https://github.com/Quiri/quiri.github.io
+  navbar:
+    right:
+      - text: About
+        href: about/index.qmd
+      - icon: github
+        href: https://github.com/Quiri/quiri.github.io
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS feed
+  open-graph: true
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles.scss]
+    highlight-style: github
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
